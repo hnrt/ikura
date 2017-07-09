@@ -1,0 +1,310 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ikura\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-09 23:35+0900\n"
+"PO-Revision-Date: 2017-07-10 00:00+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Exception.cc:12
+msgid "Invalid character"
+msgstr "Invalid character"
+
+#: Exception.cc:18
+msgid "Division by zero"
+msgstr "Division by zero"
+
+#: Exception.cc:24
+msgid "Overflow"
+msgstr "Overflow"
+
+#: Exception.cc:30
+msgid "Underflow"
+msgstr "Underflow"
+
+#: Exception.cc:36
+msgid "Caclulation impossible"
+msgstr "Caclulation impossible"
+
+#: Exception.cc:42
+msgid "%1: Recursively referenced"
+msgstr "%1: Recursively referenced"
+
+#: Expression.cc:243
+msgid "Floating-point inexact result"
+msgstr "Floating-point inexact result"
+
+#: Expression.cc:245
+msgid "Floating-point invalid operation"
+msgstr "Floating-point invalid operation"
+
+#: Expression.cc:247
+msgid "Subscript out of range"
+msgstr "Subscript out of range"
+
+#: Expression.cc:801
+msgid "Incomplete block"
+msgstr "Incomplete block"
+
+#: Expression.cc:828
+msgid "Invalid operator"
+msgstr "Invalid operator"
+
+#: Expression.cc:852 Expression.cc:905 Parser.cc:74 Parser.cc:250
+msgid "%1: Not exist"
+msgstr "%1: Not exist"
+
+#: InputBuffer.cc:113 InputBuffer.cc:131
+msgid "Please enter expression"
+msgstr "Please enter expression"
+
+#: MainWindow.cc:87
+msgid "ikura"
+msgstr "ikura"
+
+#: MainWindow.cc:109
+msgid "_File"
+msgstr "_File"
+
+#: MainWindow.cc:113
+msgid "_Edit"
+msgstr "_Edit"
+
+#: MainWindow.cc:118
+msgid "Delete _last"
+msgstr "Delete _last"
+
+#: MainWindow.cc:121
+msgid "_Delete all"
+msgstr "_Delete all"
+
+#: MainWindow.cc:124
+msgid "P_revious expression"
+msgstr "P_revious expression"
+
+#: MainWindow.cc:124
+msgid "Previous expression"
+msgstr "Previous expression"
+
+#: MainWindow.cc:127
+msgid "_Next expression"
+msgstr "_Next expression"
+
+#: MainWindow.cc:127
+msgid "Next expression"
+msgstr "Next expression"
+
+#: MainWindow.cc:130
+msgid "Variables..."
+msgstr "Variables..."
+
+#: MainWindow.cc:130 VariableDialog.cc:14 VariableDialog.cc:21
+msgid "Variables"
+msgstr "Variables"
+
+#: MainWindow.cc:134
+msgid "_Insert operator"
+msgstr "_Insert operator"
+
+#: MainWindow.cc:135
+msgid "{abs}X ...absolute value of X"
+msgstr "{abs}X ...absolute value of X"
+
+#: MainWindow.cc:137
+msgid "{cbrt}X ...cube root of X"
+msgstr "{cbrt}X ...cube root of X"
+
+#: MainWindow.cc:139
+msgid "{cos}X ...cosine of X"
+msgstr "{cos}X ...cosine of X"
+
+#: MainWindow.cc:141
+msgid "{exp}X ...e raised to the power of X"
+msgstr "{exp}X ...e raised to the power of X"
+
+#: MainWindow.cc:143
+msgid "X{hypot}Y ...euclidean distance; {sqrt}(X*X+Y*Y)"
+msgstr "X{hypot}Y ...euclidean distance; {sqrt}(X*X+Y*Y)"
+
+#: MainWindow.cc:145
+msgid "{log}X ...natural logarithm of X"
+msgstr "{log}X ...natural logarithm of X"
+
+#: MainWindow.cc:147
+msgid "{log2}X ...base 2 logarithm of X"
+msgstr "{log2}X ...base 2 logarithm of X"
+
+#: MainWindow.cc:149
+msgid "{log10}X ...base 10 logarithm of X"
+msgstr "{log10}X ...base 10 logarithm of X"
+
+#: MainWindow.cc:151
+msgid "X{pow}Y ...X raised to the power of Y"
+msgstr "X{pow}Y ...X raised to the power of Y"
+
+#: MainWindow.cc:153
+msgid "{sin}X ...sine of X"
+msgstr "{sin}X ...sine of X"
+
+#: MainWindow.cc:155
+msgid "{sqrt}X ...square root of X"
+msgstr "{sqrt}X ...square root of X"
+
+#: MainWindow.cc:157
+msgid "{tan}X ...tangent of X"
+msgstr "{tan}X ...tangent of X"
+
+#: MainWindow.cc:160
+msgid "_View"
+msgstr "_View"
+
+#: MainWindow.cc:162
+msgid "Thousands' _grouping display"
+msgstr "Thousands' _grouping display"
+
+#: MainWindow.cc:167
+msgid "_Hexadecimal display"
+msgstr "_Hexadecimal display"
+
+#: MainWindow.cc:172
+msgid "_Default precision display"
+msgstr "_Default precision display"
+
+#: MainWindow.cc:175
+msgid "Precision _10 display"
+msgstr "Precision _10 display"
+
+#: MainWindow.cc:178
+msgid "Precision _20 display"
+msgstr "Precision _20 display"
+
+#: MainWindow.cc:194
+msgid "Use _larger font"
+msgstr "Use _larger font"
+
+#: MainWindow.cc:194
+msgid "Larger font"
+msgstr "Larger font"
+
+#: MainWindow.cc:197
+msgid "Use _smaller font"
+msgstr "Use _smaller font"
+
+#: MainWindow.cc:197
+msgid "Smaller font"
+msgstr "Smaller font"
+
+#: MainWindow.cc:201
+msgid "_Help"
+msgstr "_Help"
+
+#: MainWindow.cc:280
+msgid "Copy expression to Clipboard"
+msgstr "Copy expression to Clipboard"
+
+#: MainWindow.cc:282
+msgid "Paste text from Clipboard"
+msgstr "Paste text from Clipboard"
+
+#: MainWindow.cc:300
+msgid "Delete all"
+msgstr "Delete all"
+
+#: MainWindow.cc:301
+msgid "Delete last"
+msgstr "Delete last"
+
+#: MainWindow.cc:302
+msgid "Exponent"
+msgstr "Exponent"
+
+#: MainWindow.cc:567
+msgid "Hideaki Narita"
+msgstr "Hideaki Narita"
+
+#: MainWindow.cc:573
+msgid "A handy desktop calculator that can evaluate even a complex expression."
+msgstr ""
+"A handy desktop calculator that can evaluate even a complex expression."
+
+#: MainWindow.cc:843
+msgid ""
+"Division by zero.\n"
+"Modify the expression and try again."
+msgstr ""
+"Division by zero.\n"
+"Modify the expression and try again."
+
+#: MainWindow.cc:855
+msgid ""
+"Overflow occurred.\n"
+"Modify the expression and try again."
+msgstr ""
+"Overflow occurred.\n"
+"Modify the expression and try again."
+
+#: MainWindow.cc:867
+msgid ""
+"Underflow occurred.\n"
+"Modify the expression and try again."
+msgstr ""
+"Underflow occurred.\n"
+"Modify the expression and try again."
+
+#: MainWindow.cc:879
+msgid ""
+"Unable to calculate value.\n"
+"Modify the expression and try again."
+msgstr ""
+"Unable to calculate value.\n"
+"Modify the expression and try again."
+
+#: MainWindow.cc:890
+msgid ""
+"Variable %1 is recursively referenced.\n"
+"Modify the expression and try again."
+msgstr ""
+"Variable %1 is recursively referenced.\n"
+"Modify the expression and try again."
+
+#: Parser.cc:54 Parser.cc:297 Parser.cc:309
+msgid "Invalid syntax."
+msgstr "Invalid syntax."
+
+#: Parser.cc:79
+msgid "%1: Read only"
+msgstr "%1: Read only"
+
+#: Parser.cc:88
+msgid "Non variable cannot be assigned expression"
+msgstr "Non variable cannot be assigned expression"
+
+#: Parser.cc:235
+msgid "Right parenthesis is missing."
+msgstr "Right parenthesis is missing."
+
+#: VariableDialog.cc:34
+msgid "Keep the expression in the selected variable"
+msgstr "Keep the expression in the selected variable"
+
+#: VariableDialog.cc:35
+msgid "Paste the contents of the selected variable"
+msgstr "Paste the contents of the selected variable"
+
+#: VariableDialog.cc:46
+msgid "ID"
+msgstr "ID"
+
+#: VariableDialog.cc:47
+msgid "Contents"
+msgstr "Contents"

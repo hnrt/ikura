@@ -1,0 +1,310 @@
+# Japanese translations for PACKAGE package
+# PACKAGE パッケージに対する英訳.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ikura\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-09 23:35+0900\n"
+"PO-Revision-Date: 2017-07-10 00:00+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Exception.cc:12
+msgid "Invalid character"
+msgstr "不適切な文字"
+
+#: Exception.cc:18
+msgid "Division by zero"
+msgstr "ゼロで除算"
+
+#: Exception.cc:24
+msgid "Overflow"
+msgstr "オーバーフロー"
+
+#: Exception.cc:30
+msgid "Underflow"
+msgstr "アンダーフロー"
+
+#: Exception.cc:36
+msgid "Caclulation impossible"
+msgstr "計算不能"
+
+#: Exception.cc:42
+msgid "%1: Recursively referenced"
+msgstr "%1: 再帰的に参照されました"
+
+#: Expression.cc:243
+msgid "Floating-point inexact result"
+msgstr "浮動小数の不正確な結果"
+
+#: Expression.cc:245
+msgid "Floating-point invalid operation"
+msgstr "浮動小数の不適切な操作"
+
+#: Expression.cc:247
+msgid "Subscript out of range"
+msgstr "インデックスが有効範囲外"
+
+#: Expression.cc:801
+msgid "Incomplete block"
+msgstr "不完全なブロック"
+
+#: Expression.cc:828
+msgid "Invalid operator"
+msgstr "不適切な操作"
+
+#: Expression.cc:852 Expression.cc:905 Parser.cc:74 Parser.cc:250
+msgid "%1: Not exist"
+msgstr "%1: 存在しません"
+
+#: InputBuffer.cc:113 InputBuffer.cc:131
+msgid "Please enter expression"
+msgstr "式を入力してください"
+
+#: MainWindow.cc:87
+msgid "ikura"
+msgstr "ikura"
+
+#: MainWindow.cc:109
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: MainWindow.cc:113
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: MainWindow.cc:118
+msgid "Delete _last"
+msgstr "文字削除(_L)"
+
+#: MainWindow.cc:121
+msgid "_Delete all"
+msgstr "全削除(_D)"
+
+#: MainWindow.cc:124
+msgid "P_revious expression"
+msgstr "前の式(_R)"
+
+#: MainWindow.cc:124
+msgid "Previous expression"
+msgstr "前の式"
+
+#: MainWindow.cc:127
+msgid "_Next expression"
+msgstr "次の式(_N)"
+
+#: MainWindow.cc:127
+msgid "Next expression"
+msgstr "次の式"
+
+#: MainWindow.cc:130
+msgid "Variables..."
+msgstr "変数..."
+
+#: MainWindow.cc:130 VariableDialog.cc:14 VariableDialog.cc:21
+msgid "Variables"
+msgstr "変数"
+
+#: MainWindow.cc:134
+msgid "_Insert operator"
+msgstr "演算子を挿入(_I)"
+
+#: MainWindow.cc:135
+msgid "{abs}X ...absolute value of X"
+msgstr "{abs}x ...Xの絶対値"
+
+#: MainWindow.cc:137
+msgid "{cbrt}X ...cube root of X"
+msgstr "{cbrt}X ...Xの立方根"
+
+#: MainWindow.cc:139
+msgid "{cos}X ...cosine of X"
+msgstr "{cos}X ...Xの余弦値"
+
+#: MainWindow.cc:141
+msgid "{exp}X ...e raised to the power of X"
+msgstr "{exp}X ...e(自然対数の底)のX乗"
+
+#: MainWindow.cc:143
+msgid "X{hypot}Y ...euclidean distance; {sqrt}(X*X+Y*Y)"
+msgstr "X{hypot}Y ...ユークリッド距離; {sqrt}(X*X+Y*Y)"
+
+#: MainWindow.cc:145
+msgid "{log}X ...natural logarithm of X"
+msgstr "{log}X ...Xの自然対数値"
+
+#: MainWindow.cc:147
+msgid "{log2}X ...base 2 logarithm of X"
+msgstr "{log2}X ...Xの底2の対数値"
+
+#: MainWindow.cc:149
+msgid "{log10}X ...base 10 logarithm of X"
+msgstr "{log10}X ...Xの底10の対数値"
+
+#: MainWindow.cc:151
+msgid "X{pow}Y ...X raised to the power of Y"
+msgstr "X{pow}Y ...XのY乗"
+
+#: MainWindow.cc:153
+msgid "{sin}X ...sine of X"
+msgstr "{sin}X ...Xの正弦値"
+
+#: MainWindow.cc:155
+msgid "{sqrt}X ...square root of X"
+msgstr "{sqrt}X ...Xの平方根"
+
+#: MainWindow.cc:157
+msgid "{tan}X ...tangent of X"
+msgstr "{tan}X ...Xの正接値"
+
+#: MainWindow.cc:160
+msgid "_View"
+msgstr "表示(_V)"
+
+#: MainWindow.cc:162
+msgid "Thousands' _grouping display"
+msgstr "桁区切り表示(_G)"
+
+#: MainWindow.cc:167
+msgid "_Hexadecimal display"
+msgstr "16進数表示(_H)"
+
+#: MainWindow.cc:172
+msgid "_Default precision display"
+msgstr "既定の桁精度表示(_D)"
+
+#: MainWindow.cc:175
+msgid "Precision _10 display"
+msgstr "10桁精度表示(_1)"
+
+#: MainWindow.cc:178
+msgid "Precision _20 display"
+msgstr "20桁精度表示(_2)"
+
+#: MainWindow.cc:194
+msgid "Use _larger font"
+msgstr "大きいフォント(_L)"
+
+#: MainWindow.cc:194
+msgid "Larger font"
+msgstr "大きいフォント"
+
+#: MainWindow.cc:197
+msgid "Use _smaller font"
+msgstr "小さいフォント(_S)"
+
+#: MainWindow.cc:197
+msgid "Smaller font"
+msgstr "小さいフォント"
+
+#: MainWindow.cc:201
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: MainWindow.cc:280
+msgid "Copy expression to Clipboard"
+msgstr "式をクリップボードにコピー"
+
+#: MainWindow.cc:282
+msgid "Paste text from Clipboard"
+msgstr "テキストをクリップボードから貼り付け"
+
+#: MainWindow.cc:300
+msgid "Delete all"
+msgstr "全削除"
+
+#: MainWindow.cc:301
+msgid "Delete last"
+msgstr "文字削除"
+
+#: MainWindow.cc:302
+msgid "Exponent"
+msgstr "べき数"
+
+#: MainWindow.cc:567
+msgid "Hideaki Narita"
+msgstr "成田 秀明"
+
+#: MainWindow.cc:573
+msgid "A handy desktop calculator that can evaluate even a complex expression."
+msgstr "複雑な式でさえ計算できる便利な電卓"
+
+#: MainWindow.cc:843
+msgid ""
+"Division by zero.\n"
+"Modify the expression and try again."
+msgstr ""
+"ゼロで除算しました。\n"
+"式を修正してやりなおしてください。"
+
+#: MainWindow.cc:855
+msgid ""
+"Overflow occurred.\n"
+"Modify the expression and try again."
+msgstr ""
+"オーバーフローが発生しました。\n"
+"式を修正してやりなおしてください。"
+
+#: MainWindow.cc:867
+msgid ""
+"Underflow occurred.\n"
+"Modify the expression and try again."
+msgstr ""
+"アンダーフローが発生しました。\n"
+"式を修正してやりなおしてください。"
+
+#: MainWindow.cc:879
+msgid ""
+"Unable to calculate value.\n"
+"Modify the expression and try again."
+msgstr ""
+"計算不能です。\n"
+"式を修正してやりなおしてください。"
+
+#: MainWindow.cc:890
+msgid ""
+"Variable %1 is recursively referenced.\n"
+"Modify the expression and try again."
+msgstr ""
+"変数%1が再帰的に参照されています。\n"
+"式を修正してやりなおしてください。"
+
+#: Parser.cc:54 Parser.cc:297 Parser.cc:309
+msgid "Invalid syntax."
+msgstr "不適切な構文"
+
+#: Parser.cc:79
+msgid "%1: Read only"
+msgstr "%1: リードオンリー"
+
+#: Parser.cc:88
+msgid "Non variable cannot be assigned expression"
+msgstr "非変数には式の代入不可"
+
+#: Parser.cc:235
+msgid "Right parenthesis is missing."
+msgstr "右括弧がありません。"
+
+#: VariableDialog.cc:34
+msgid "Keep the expression in the selected variable"
+msgstr "選択された変数に式を保存"
+
+#: VariableDialog.cc:35
+msgid "Paste the contents of the selected variable"
+msgstr "選択された変数の内容を貼り付け"
+
+#: VariableDialog.cc:46
+msgid "ID"
+msgstr "ID"
+
+#: VariableDialog.cc:47
+msgid "Contents"
+msgstr "内容"
